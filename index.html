@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Blinker:wght@200;300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="parent">
+      <div class="content">
+        <div class="hero">
+          <div class="logo">
+            <img src="images/GOC icon.png" class="logo-img" alt="GOC icon" />
+            <h1 class="logo-text">GOC</h1>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="dummy left">
+          <p>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. <br />
+            Sign Up <em> now</em> to Get Started
+          </p>
+          <p>You <em>know</em> you want to</p>
+        </div>
+        <form action="#" method="post">
+          <div class="form-section">
+            <h3 class="form-title">Let's do this!</h3>
+            <div class="row">
+              <div class="column">
+                <label for="first-name"> First Name</label>
+                <input type="text" name="first-name" id="first-name" required />
+              </div>
+              <div class="column shift">
+                <label for="last-name">Last Name</label>
+                <input
+                  type="text"
+                  name="last-name"
+                  class="focus"
+                  id="last-name"
+                  required
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="column">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required />
+              </div>
+              <div class="column shift">
+                <label for="phone-number">Phone Number</label>
+                <input
+                  type="text"
+                  name="phone-number"
+                  id="phone-number"
+                  required
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="column">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  name="password"
+                  class="error"
+                  id="password"
+                  required
+                />
+                <p class="error-message">*Passwords do not match</p>
+              </div>
+              <div class="column shift">
+                <label for="confirm-password">Confirm Password</label>
+                <input
+                  type="password"
+                  name="confirm-password"
+                  class="error"
+                  id="confirm-password"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+          <button type="submit" class="buttom" id="create-account">
+            Create Account
+          </button>
+        </form>
+        <p class="log-in buttom">
+          Already have an account? <a href="#">Log In</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
